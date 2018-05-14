@@ -1,0 +1,8 @@
+%article{ "ng-app"=>"angular_test"}
+  %header 
+    %h1{ 'ng-if'=>"name"} Hello, {{name}}
+  %section
+    %form{class: "form-inline"}
+      .form-group
+        %label{ for: "name"} Name 
+        %input{class: "form-control",  name: "name",  type: "text", autofocus: true,  placeholder: "Enter your name" , "ng-model" => "name"}

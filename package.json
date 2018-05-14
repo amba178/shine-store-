@@ -1,0 +1,7 @@
+{
+  "name": "shine-store",
+  "private": true,
+  "dependencies": {
+    "phantomjs": "^2.1.7"
+  }
+}
